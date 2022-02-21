@@ -1,7 +1,27 @@
 * {
   font-family:'Times New Roman', Times, serif;
   background-color: blue;
+  color: white;
 }
-h1, h3 {
+h1 {
   text-align: center;
+}
+h3 {
+  text-align: center;
+}
+img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.form-inlinelabel {
+margin: 5px 10px 5px 0;
+}
+#submit {
+  margin: 5px 10px 5px 0;
 }
