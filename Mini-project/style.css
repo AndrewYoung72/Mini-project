@@ -14,17 +14,34 @@ img {
   margin-right: auto;
   display: block;
 }
+.header {
+  background-color: lightslategray;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
 .form-inline {
   display: flex;
   flex-flow: row wrap;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  margin: 10px 20px 10px 0;
-  
+  margin-left: 500px; 
 }
 .form-inlinelabel {
 margin: 5px 10px 5px 0;
 }
 #submit {
   margin: 5px 10px 5px 0;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline-block;
+  margin-left: 300px;
+  margin-right: none;
+}
+#contact_form {
+  color: pink;
 }
